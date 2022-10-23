@@ -68,12 +68,11 @@ body {
     margin: 0 16px;
     padding: 2em 3em;
     border-radius: 12px;
-    width: minmax(100% 900px);
     box-shadow: 0 0 20px rgb(0, 0, 0, .5);
 }
 
 .label {
-    font-size: 1.3em;
+    font-size: 1em;
     text-transform: capitalize;
     margin-bottom: 1em;
 }
@@ -85,8 +84,8 @@ body {
 }
 
 .form-input {
-    padding: .5em 1em;
-    font-size: 1.3em;
+    padding: .3em .7em;
+    font-size: 1em;
     outline: none;
     border: 1px solid brown;
     border-radius: 7px 0 0 7px;
@@ -97,8 +96,8 @@ body {
 }
 
 .modal button {
-    font-size: 1.3em;
-    padding: .5em 1em;
+    font-size: 1em;
+    padding: .3em .7em;
     text-transform: uppercase;
     border: none;
     border-radius: 0 7px 7px 0;
