@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pick A Random Number</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="button-wrapper">
+            <button id="startBtn" class="start-button">Play</button>
+        </div>
+
+        <div class="modal modal-for-name hide">
+            <div class="modal-content-wrapper">
+                <form action="#" class="name-form">
+                    <p class="label">Enter Your name to begin game</p>
+                    <div class="entry">
+                        <input type="text" class="form-input" title="name" />
+                        <button type="submit">start</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="modal quiz hide">
+            <div class="modal-content-wrapper">
+                <div class="quiz-heading row">
+                    <p class="name">Joseph</p>
+                    <div class="score-bug row">
+                        <p class="score-title">Score:</p>
+                        <p class="score">0</p>
+                    </div>
+                </div>
+                <div class="quiz-body">
+                    <p>Guess the random number</p>
+                    <div class="numbers row"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
